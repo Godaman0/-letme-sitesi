@@ -1,0 +1,661 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.ust_bilgi_container{
+	height: 53px;
+	background-color: #f4f4f4;
+	padding-top: 12px;
+	box-sizing: border-box;
+}
+
+.menu_container{
+	height: 100px;
+	background-color: #53D3DE;
+	border-bottom: solid 2px #1D8B94;
+}
+
+
+.tel_mail_login_container{
+	width: 1150px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tel_container{
+	width: 150px;
+	height: 30px;
+	padding-top: 5px;
+	padding-left: 7px;
+	float: left;
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
+.icon_phone{
+	width: 16px;
+	margin-top: 6px;
+	height: 16px;
+	transform: rotate(270deg);
+	float: left;
+	background-image: url("../images/phone_icon.png");
+}
+
+.icon_mail{
+	width: 16px;
+	margin-top: 6px;
+	height: 16px;
+	float: left;
+	background-image: url("../images/mail_icon.png");
+}
+
+.ust_bilgi_sag{
+	width: 170px;
+	height: 30px;
+	float: right;
+}
+
+.login_icon{
+	width: 16px;
+	margin-top: 6px;
+	height: 16px;
+	background-image: url("../images/login_icon.png");
+}
+
+.logo_menu_container{
+	width: 1150px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	width: 150px;
+	height: 70px;
+	float: left;
+	padding-top:12px;
+	font-size: 45px;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+}
+
+
+.home_container{
+	height: 600px;
+	background-image: url("../images/01.png");	
+	padding-top: 180px;
+	box-sizing: border-box;
+}
+
+.home_text_container{
+	width: 1150px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text_one{
+	width: 550px;
+	color: #fff;
+	height: 30px;
+	font-size: 25px;
+}
+
+.text_two{
+	width: 770px;
+	color: #fff;
+	height: 65px;
+	margin-top: 15px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.text_three{
+	width: 650px;
+	color: #fff;
+	height:20px;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.home_button_container{
+	width: 700px;
+	height: 40px;
+	margin-top: 45px; 
+}
+
+.home_button1{
+	width: 200px;
+	float: left;
+	height: 40px;
+	padding: 10px;
+	background-color: #07E0B5;
+	border: solid 1px #07E0B5;
+	color: #fff;
+}
+
+.home_button1:hover{
+	width: 200px;
+	float: left;
+	height: 40px;
+	padding: 10px;
+	background:none;
+	border: solid 1px #fff;
+	color: #fff;
+	transition: ease 0.7s;
+	cursor: pointer;
+	outline: none;
+}
+
+.home_button2{
+	width: 200px;
+	float: left;
+	margin-left: 25px;
+	height: 40px;
+	padding: 10px;
+	background:none;
+	border: solid 1px #fff;
+	color: #fff;
+}
+
+.home_button2:hover{
+	width: 200px;
+	float: left;
+	height: 40px;
+	padding: 10px;
+	background-color: #07E0B5;
+	border: solid 1px #07E0B5;
+	color: #fff;
+	transition: ease 0.7s;
+	cursor: pointer;
+	outline: none;
+}
+
+.hizmetler_container{
+	height: 700px;
+	background-color: #f4f4f4;
+	padding-top: 65px;
+	box-sizing: border-box;
+}
+
+
+.hizmetler_container2{
+	height: 700px;
+	background-color: #fff;
+	padding-top: 65px;
+	box-sizing: border-box;
+}
+
+.hizmetler_container3{
+	height: 700px;
+	background-color: #f4f4f4;
+	padding-top: 65px;
+	box-sizing: border-box;
+}
+
+.hizmetler_baslik{
+	width: 450px;
+	height: 60px;
+	color: #333;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 22px;
+	text-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hizmetler_kutu_container{
+	width: 1150px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+		padding-top: 100px;
+		box-sizing: border-box;
+}
+
+.hizmetler_kutu{
+	font-family: Verdana, Geneva, sans-serif;
+	width: 348px;
+	height: 408px;
+	border: solid 1px #ddd;
+	background-color: #fff;
+	float: left;
+}
+
+.hizmetler_kutu:hover{
+	font-family: Verdana, Geneva, sans-serif;
+	width: 348px;
+	height: 408px;
+	border: solid 1px #53D3DE;
+	transition: ease 0.6s;
+	background-color: #fff;
+	float: left;
+}
+
+.hizmetler_kutu_ek{
+	font-family: Verdana, Geneva, sans-serif;
+	width: 348px;
+	height: 408px;
+	border: solid 1px #ddd;
+	background-color: #fff;
+	float: left;
+	margin-left: 50px;
+}
+
+.hizmetler_kutu_ek:hover{
+	font-family: Verdana, Geneva, sans-serif;
+	width: 348px;
+	transition: ease 0.6s;
+	height: 408px;
+	border: solid 1px #53D3DE;
+	background-color: #fff;
+	float: left;
+	margin-left: 50px;
+}
+
+.hizmetler_image{
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	background-image: url("../images/100x100.png");
+}
+
+.hizmetler_kutu_baslik{
+	width: 220px;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	color: #222;
+	font-size: 26px;
+	text-align: center;
+}
+
+.hizmetler_kutu_aciklama{
+	width: 300px;
+	height: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	color: #222;
+	font-size: 14px;
+	text-align: center;
+}
+
+.hizmetler_fiyat{
+	width: 150px;
+	height: 40px;
+	margin-left: auto;
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-top: 25px;	
+	color: #222;
+	font-size: 26px;
+	text-align: center;
+}
+
+.hizmetler_detay_btn_container{
+	width: 100px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+
+.hizmetler_detay_btn{
+	width: 100px;
+	height: 40px;
+	background-color: #53D3DE;
+	color: #fff;
+	border: solid 1px #53D3DE;
+	margin-left: auto;
+	margin-right: auto;
+		outline: none;
+}
+
+
+.ara_bilgilendirme{
+	height:140px;
+	background-color: #1D8B94; 
+	padding-top: 55px;
+	box-sizing: border-box;
+}
+
+.bilgilendirme_yazi_btn_container{
+	width: 1150px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	font-size: 28px;
+}
+
+.bilgilendirme_btn{
+	width: 250px;
+	height: 40px;
+	background-color: #05CFC9;
+	color: #fff;
+	border: solid 1px #05CFC9;
+	outline: none;
+	float: right;
+}
+
+.bilgilendirme_btn:hover{
+	width: 250px;
+	height: 40px;
+	background:none;
+	color: #fff;
+	border: solid 1px #fff;
+	outline: none;
+	transition: ease 0.7s;
+	float: right;
+}
+
+
+
+.icerik_resim_container{
+	width: 1150px;
+	height: 470px;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.icerik_resim_container_ort{
+	width: 348px;
+	height: 340px;
+	float: left;
+}
+
+.icerik_resim_container_ort2{
+	width: 348px;
+	height: 340px;
+	float: left;
+	margin-left: 52px;
+}
+
+
+
+.icerik_resim{
+	width: 348px;
+	height: 260px;
+		margin-bottom: 20px;
+	float: left;
+	background-image: url("../images/100x100.png");
+}
+
+.icerik_resim2{
+	width: 348px;
+	height: 260px;
+	float: left;
+	margin-bottom: 20px;
+	background-color: #888;
+		background-image: url("../images/100x100.png");
+}
+
+
+.icerik_goz{
+	width: 32px;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 110px;
+	background-image: url("../images/eye_32.png");
+	display: none;
+}
+
+
+.icerik_yazi{
+	width: 348px;
+	height: 40px;
+	font-size: 24px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.icerik_btn{
+	width: 220px;
+	height: 40px;
+	background-color: #53D3DE;
+	color: #fff;
+	border: solid 1px #53D3DE;
+	margin-left: 460px;
+	margin-top: 60px;
+	outline: none;
+}
+
+
+.icerik_btn:hover{
+	width: 220px;
+	height: 40px;
+	background:none;
+	color: #333;
+	border: solid 1px #333;
+	transition: ease 0.7s;
+	margin-left: 460px;
+	margin-top: 60px;
+	outline: none;
+}
+
+.home_ekip_container{
+	height: 380px;
+	background-image: url("../images/01.png");
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+
+
+.resim_yazi_container{
+	width: 1150px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home_image{
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	background-color: #ccc;
+}
+
+.home_aciklama{
+	width: 800px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 17px;
+	color: #fff;
+}
+
+
+.iletisim_container{
+	height: 110px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.iletisim_ortalama{
+	width: 1150px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+box-sizing: border-box;
+}
+
+
+.call_container{
+	width: 220px;
+	height: 60px;
+	float: left;
+}
+
+.mail_container{
+	width: 220px;
+	height: 60px;
+	float: left;
+	margin-left: 90px;
+}
+
+.icon_cont{
+	width: 35px;
+	height: 60px;
+	float: left;
+}
+
+.iletisim_yazi{
+	width:220px;
+	height: 60px;
+	color: #333;
+}
+
+.footer_container{
+	height: 467px;
+	background-color: #202020;
+	padding-top: 90px;
+	box-sizing: border-box;
+}
+
+
+.footer_ortalama_container{
+	width: 1150px;
+	height: 290px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer_kutu{
+	width: 250px;
+	height: 290px;
+	float: left;
+}
+
+.footer_kutu_yan{
+	width: 250px;
+	height: 290px;
+	float: left;
+	margin-left: 50px;
+}
+
+.footer_baslik{
+	width: 250px;
+	height: 80px;
+	font-size: 18px;
+	color: #fff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+
+.footer_text{
+	width: 250px;
+	height: 210px;
+	color: #555;
+	font-size: 17px;
+}
+
+
+.footer_social_media_container{
+	width: 250px;
+	height: 32px;
+	margin-top: 30px;
+}
+
+
+.foot_facebook{
+	width: 32px;
+	height: 32px;
+	float: left;
+	background-color: #111;
+}
+
+.foot_diger{
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-left: 16px;
+	background-color: #111;
+}
+
+
+.footer_alan_ayirma{
+	width: 250px;
+	height: 115px;
+	border-bottom: solid 1px #444;	
+}
+
+
+.footer_ucuncukutu{
+	width: 250px;
+	height: 50px;
+	border-bottom: solid 1px #555;
+	color: #06ADBB;
+	font-size: 17px;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+
+
+.footer_name_text{
+	width: 250px;
+	height: 36px;
+	background-color: #111;
+	border: solid 1px #111;
+	padding: 5px;
+	outline: none;
+	box-sizing: border-box;
+	color: #555;
+}
+
+
+.footer_submit_btn{
+	width: 110px;
+	height: 40px;
+	color: #fff;
+	background-color: #06ADBB;
+	border: solid 1px #06ADBB;
+	outline: none;
+	cursor: pointer;
+}
+
+.footer_submit_btn:hover{
+	width: 110px;
+	height: 40px;
+	color: #fff;
+	background-color: #005961;
+	border: solid 1px #06ADBB;
+	outline: none;
+	cursor: pointer;
+}
+
+
+
+.footer_in_footer{
+	height: 62px;
+	background-color: #161616;
+	padding-top: 25px;
+	box-sizing: border-box;
+	color: #555;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+
+.footer_in_footer_container{
+	width: 1150px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
